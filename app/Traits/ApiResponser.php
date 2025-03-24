@@ -27,7 +27,3 @@ trait ApiResponser
             ['error' => $message, 'site' => 2, 'code' => $code], $code);
     }
 }
-
-
-
-//dsadahello
