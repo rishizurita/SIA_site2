@@ -20,5 +20,11 @@ class User extends Model
     const CREATED_AT = null;
     const UPDATED_AT = null;
     protected $primaryKey = 'userid';
+    
+        // fields must be hidden like password
+    // the attribute excluded from the model's JSON form
+    protected $hidden = [
+        'password'
+    ];
 
 }
