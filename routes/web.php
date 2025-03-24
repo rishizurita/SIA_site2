@@ -6,7 +6,7 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-// unsecure routes
+//unsecure routes
 //$router->group(['prefix' =>'api'], function () use ($router) {
     //$router->get('/users', ['uses'=> 'UserController@getUsers']);
 
